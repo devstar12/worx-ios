@@ -1,0 +1,84 @@
+PODS:
+  - Alamofire (5.0.0-rc.3)
+  - FacebookSDK (6.0.0):
+    - FacebookSDK/CoreKit (= 6.0.0)
+    - FacebookSDK/MarketingKit (= 6.0.0)
+  - FacebookSDK/CoreKit (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FacebookSDK/LoginKit (6.0.0):
+    - FacebookSDK/CoreKit
+    - FBSDKLoginKit (~> 6.0.0)
+  - FacebookSDK/MarketingKit (6.0.0):
+    - FacebookSDK/CoreKit
+    - FBSDKMarketingKit (~> 6.0.0)
+  - FBSDKCoreKit (6.0.0):
+    - FBSDKCoreKit/Basics (= 6.0.0)
+    - FBSDKCoreKit/Core (= 6.0.0)
+  - FBSDKCoreKit/Basics (6.0.0)
+  - FBSDKCoreKit/Core (6.0.0):
+    - FBSDKCoreKit/Basics
+  - FBSDKLoginKit (6.0.0):
+    - FBSDKLoginKit/Login (= 6.0.0)
+  - FBSDKLoginKit/Login (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FBSDKMarketingKit (6.0.0):
+    - FBSDKCoreKit (~> 6.0.0)
+  - FormTextField (3.0.0)
+  - IQKeyboardManagerSwift (6.5.5)
+  - JGProgressHUD (2.1)
+  - SCLAlertView (0.8)
+  - SDWebImage (5.5.2):
+    - SDWebImage/Core (= 5.5.2)
+  - SDWebImage/Core (5.5.2)
+  - SimpleCheckbox (2.1.0)
+  - SwiftIcons (3.0)
+  - "UIImageView+Extension (0.2.6)"
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0.0-rc.3)
+  - FacebookSDK
+  - FacebookSDK/LoginKit
+  - FormTextField
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - SCLAlertView
+  - SDWebImage
+  - SimpleCheckbox
+  - SwiftIcons (~> 3.0)
+  - "UIImageView+Extension (~> 0.2)"
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - "UIImageView+Extension"
+  trunk:
+    - Alamofire
+    - FacebookSDK
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - FBSDKMarketingKit
+    - FormTextField
+    - IQKeyboardManagerSwift
+    - JGProgressHUD
+    - SCLAlertView
+    - SDWebImage
+    - SimpleCheckbox
+    - SwiftIcons
+
+SPEC CHECKSUMS:
+  Alamofire: ca8c0de6906873be89d6deec5c8de279e00bf872
+  FacebookSDK: c9c27c7d3c0fc189fab6b2f735b3a97b83fbe6e3
+  FBSDKCoreKit: fe738b172590e622c86735b45e20d196848b54df
+  FBSDKLoginKit: fa57df1b967fe0e147b25bede6ea4e9cdf4d64be
+  FBSDKMarketingKit: 23dc92210340019f88e9fc1edbbc8c1ec43914b3
+  FormTextField: fd5dc441ad40ba12d08ef66aeb0453ee9bf55e6d
+  IQKeyboardManagerSwift: 0fb93310284665245591f50f7a5e38de615960b7
+  JGProgressHUD: aa403e9a5b45cae98903c4600cccdd98c0c3ec90
+  SCLAlertView: 6a77bb2edfc65e04dbe57725546cb4107a506b85
+  SDWebImage: 4d5c027c935438f341ed33dbac53ff9f479922ca
+  SimpleCheckbox: ddcd433ab8c3a8f57300bebda13151a8f302c7f9
+  SwiftIcons: 3b748e57d9eee0c7c8d3bdbf2d742c0b1b4c6172
+  "UIImageView+Extension": bc26c60a9c8cd6fb515ae1e37377a6f0988e76d8
+
+PODFILE CHECKSUM: 53f3f0f46f24d7e2a4da38f8a2544a940364146f
+
+COCOAPODS: 1.9.1
